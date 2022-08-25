@@ -14,8 +14,23 @@
 	<!--css-->
     <link rel="stylesheet" href="style.css">
     <!---->
+
+    <script src="gameLogin.js"></script>
 </head>
-<body>
-    
+<body class="bg-dark text-light text-center">
+    <div class="container d-grid gap-4">
+        <h1>Jogo</h1>
+        <div class="bg-warning col-11 col-sm-8 col-lg-4 loginDiv mx-auto p-4 rounded-4">
+            <h3>Jogador 1</h3>
+            <label>Login:</label>
+            <input type="text" id="p1NameInput" class="form-control" placeholder="Nome de usuário">
+        </div>
+        <div class="bg-success col-11 col-sm-8 col-lg-4 loginDiv mx-auto p-4 rounded-4">
+            <h3>Jogador 2</h3>
+            <label>Login:</label>
+            <input type="text" id="p2NameInput" class="form-control" placeholder="Nome de usuário">
+        </div>
+        <button class="btn btn-primary col-9 col-sm-5 col-lg-2 mx-auto">Log in</button>
+    </div>
 </body>
 </html>
