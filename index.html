@@ -14,20 +14,18 @@
     <!-- Script -->
     <script src="gameLogin.js"></script>
 </head>
-<body class="bg-dark text-light text-center">
+<body class="text-bg-dark text-center">
     <div class="container d-grid gap-4">
-        <h1>Jogo</h1>
-        <div class="bg-warning col-11 col-sm-8 col-lg-4 loginDiv mx-auto p-4 rounded-4">
-            <h3>Jogador 1</h3>
-            <label>Login:</label>
+        <h1 class="display-1">Jogo</h1>
+        <div class="loginDiv text-bg-primary col-11 col-sm-8 col-lg-4 mx-auto p-4 rounded-4">
+            <h6 class="display-6">Jogador 1</h6>
             <input type="text" id="p1NameInput" class="form-control" placeholder="Nome de usuário">
         </div>
-        <div class="bg-success col-11 col-sm-8 col-lg-4 loginDiv mx-auto p-4 rounded-4">
-            <h3>Jogador 2</h3>
-            <label>Login:</label>
+        <div class="loginDiv text-bg-success col-11 col-sm-8 col-lg-4 mx-auto p-4 rounded-4">
+            <h6 class="display-6">Jogador 2</h6>
             <input type="text" id="p2NameInput" class="form-control" placeholder="Nome de usuário">
         </div>
-        <button class="btn btn-primary col-9 col-sm-5 col-lg-2 mx-auto">Log in</button>
+        <button onclick="addUsers()" class="btn btn-danger col-9 col-sm-5 col-lg-2 mx-auto">Log in</button>
     </div>
 </body>
 </html>
